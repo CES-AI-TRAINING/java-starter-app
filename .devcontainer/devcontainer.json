@@ -1,0 +1,25 @@
+{
+  "name": "Java Starter App (Java 17)",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "forwardPorts": [8080],
+  "postCreateCommand": "./mvnw -v && ./mvnw -DskipTests dependency:go-offline",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-spring-boot-dashboard",
+        "vscjava.vscode-maven",
+        "vscjava.vscode-java-test",
+        "redhat.vscode-yaml"
+      ],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000
+      }
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "remoteUser": "vscode"
+}
