@@ -7,6 +7,18 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Unit test class for testing the controller methods of {@link JavaStarterAppApplication}.
+ * <p>
+ * This test class uses Mockito extension to test the controller functionality
+ * in isolation without loading the full Spring context. It focuses on testing
+ * the welcome endpoint behavior and return values.
+ * </p>
+ * 
+ * @author CES AI Training
+ * @version 1.0
+ * @since 1.0
+ */
 @ExtendWith(MockitoExtension.class)
 class ControllerTests {
 

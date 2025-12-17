@@ -8,6 +8,18 @@ import org.springframework.boot.SpringApplication;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Unit test class for testing the main method of {@link ApplicationStarter}.
+ * <p>
+ * This test class uses Mockito's static mocking capabilities to test the
+ * application startup without actually starting a Spring Boot server. This
+ * ensures the main method can be invoked without side effects during testing.
+ * </p>
+ * 
+ * @author CES AI Training
+ * @version 1.0
+ * @since 1.0
+ */
 class MainStaticMockTest {
 
   @Test
