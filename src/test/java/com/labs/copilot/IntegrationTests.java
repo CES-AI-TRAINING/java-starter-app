@@ -7,6 +7,17 @@ import org.springframework.context.ApplicationContext;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Integration test class for {@link JavaStarterAppApplication}.
+ * <p>
+ * This test class runs integration tests with a full Spring Boot context
+ * and a running web server on a defined port. It verifies end-to-end
+ * functionality including context loading, bean creation, and endpoint behavior.
+ * </p>
+ * @author CES AI Training
+ * @version 1.0
+ * @since 1.0
+ */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 class IntegrationTests {
 
