@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
  * This class serves as both the application configuration and a REST controller,
  * providing a simple welcome endpoint at the root path.
  * </p>
- * 
  * @author CES AI Training
  * @version 1.0
  * @since 1.0
@@ -26,7 +25,6 @@ public class JavaStarterAppApplication {
 	 * This method returns a simple welcome message to verify that the
 	 * application is running correctly.
 	 * </p>
-	 * 
 	 * @return a welcome message string
 	 */
 	@GetMapping("/")

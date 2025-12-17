@@ -15,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * application startup without actually starting a Spring Boot server. This
  * ensures the main method can be invoked without side effects during testing.
  * </p>
- * 
  * @author CES AI Training
  * @version 1.0
  * @since 1.0

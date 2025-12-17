@@ -14,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * in isolation without loading the full Spring context. It focuses on testing
  * the welcome endpoint behavior and return values.
  * </p>
- * 
  * @author CES AI Training
  * @version 1.0
  * @since 1.0

@@ -14,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * and that the main application bean is properly configured. It tests both the
  * application context initialization and the welcome endpoint functionality.
  * </p>
- * 
  * @author CES AI Training
  * @version 1.0
  * @since 1.0
